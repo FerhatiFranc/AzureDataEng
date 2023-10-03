@@ -22,3 +22,6 @@ With the transformed data, SQL commands are employed to extract valuable insight
 
 For more details, refer to the accompanying code and documentation.
 
+## Technologies
+
+Azure Data Factory, Azure Databricks (Spark), Azure Blob Storage, Azure Synapse Analytics, SQL, Power BI
