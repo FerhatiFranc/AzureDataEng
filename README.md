@@ -14,7 +14,7 @@ This project's goal is to work with data from The Movie Database. Extracted data
 
 ## Data Management
 
-Data is stored in Azure Cloud Storage. An ingestion pipeline is created on Azure Data Factory, which ingests the data from the CSV file present in this GitHub repository (AzureDataEng). After creating the pipeline, a cluster is established to perform data transformations within Azure Databricks. Using PySpark, several data types from the schema are transformed into floats, integers, and date types to enable analytics.
+Data is stored in Azure Cloud Storage. An ingestion pipeline is created on Azure Data Factory, which ingests the data from the CSV file present in this GitHub repository (AzureDataEng). After creating the pipeline, a cluster is established to perform data transformations within Azure Databricks. Using PySpark, several data types from the schema are transformed into floats, integers, and date types to enable analytics, furthermore, irrelevant data and incomplete markers for movies are filtered. Once the data is thoroughly cleaned, it is then loaded back into Azure data blob as our transformed data.
 
 ## Data Analysis
 
